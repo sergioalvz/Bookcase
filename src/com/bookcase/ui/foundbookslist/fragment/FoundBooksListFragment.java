@@ -112,8 +112,7 @@ public class FoundBooksListFragment extends ListFragment {
 
 	}
 
-	private static final String URL_BASE = "https://isbndb.com/api/books.xml?"
-			+ "access_key=FDWU5FKZ&index1=title&value1=";
+	private static final String URL_BASE = "https://isbndb.com/api/books.xml?access_key=FDWU5FKZ&index1=title&value1=";
 	private ProgressBar progressBar;
 	private Button btAddManually;
 	private ArrayAdapter<Book> adapter;
