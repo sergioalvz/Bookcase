@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bookcase</string>
+    <string name="title_section3">Mis Préstamos</string>
+    <string name="title_section2">Leídos</string>
+    <string name="title_section1">Mis Libros</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="book_cover">Portada del libro</string>
+    <string name="rating">Puntuación</string>
+    <string name="pending">Pendiente</string>
+    <string name="read">Leído</string>
+    <string name="in_use">En uso</string>
+    <string name="lent">Prestado</string>
+    <string name="menu_add_book">Añadir libro</string>
+    <string name="menu_add_lending">Añadir préstamo</string>
+    <string name="introduce_title">Introduzca el título</string>
+    <string name="introduce_title_hint">Introduzca el título del libro</string>
+    <string name="introduce_author_hint">Introduzca el/los autor/es del libro</string>
+    <string name="introduce_isbn_hint">Introduzca el ISBN del libro</string>
+    <string name="search">Buscar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_is_mandatory">Debe introducir un título para 
+        poder iniciar la búsqueda</string>
+    <string name="choose_book">Escoge un resultado</string>
+    <string name="status">Estado</string>
+    <string name="add">Añadir</string>
+    <string name="book_details">Detalles del libro</string>
+    <string name="select_book_status">El libro está&#8230;</string>
+    <string name="new_book_added">¡Nuevo libro añadido!</string>
+    <string name="save">Guardar</string>
+    <string name="title">Título del libro</string>
+    <string name="author">Author del libro</string>
+    <string name="observations">Escriba alguna observación sobre el libro&#8230;</string>
+    <string name="book_updated">El libro ha sido actualizado</string>
+    <string name="book_icon">Icono del libro</string>
+    <string name="delete">Borrar</string>
+    <string name="delete_completed">¡Borrado completado!</string>
+    <string name="edit">Editar</string>
+    <string name="add_manually">Añadir libro manualmente</string>
+    <string name="no_network">No existe conexión a Internet. Tendrá que añadir el libro manualmente</string>
+
+</resources>

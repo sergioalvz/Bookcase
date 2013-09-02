@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10sp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20sp" >
+
+        <EditText
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:hint="@string/introduce_title_hint" />
+
+        <EditText
+            android:id="@+id/book_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textStyle="italic" 
+            android:hint="@string/introduce_author_hint"/>
+
+        <EditText
+            android:id="@+id/book_isbn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:hint="@string/introduce_isbn_hint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:labelFor="@+id/rbg_status"
+            android:text="@string/select_book_status"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:id="@+id/rbg_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/rb_pending"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rb_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/read"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_pending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pending"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_in_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/in_use"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btAddBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+    </LinearLayout>
+
+</ScrollView>
