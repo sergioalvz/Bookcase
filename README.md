@@ -22,5 +22,5 @@ This application is able to:
 * Add the user's read books
 * Add the user's pending books
 * Rate the user's read books
-* Manage the user's loans (**not fully implemented**)
+* Manage the user's loans ( **not fully implemented** ).
 * Find and recovery the books' information (through [isbndb.com](http://isbndb.com/)) by their titles.
