@@ -1,7 +1,7 @@
 Bookcase
 ========
 
-Bookcase is an Android application developed by [@varezHH](http://www.twitter.com/varezHH) for managing his personal bookcase.
+Bookcase is an Android application developed by [@sergioalvz_](http://www.twitter.com/sergioalvz_) for managing his personal bookcase.
 
 ## Instalation
 
